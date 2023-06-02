@@ -32,22 +32,32 @@
 //--------------Dynamic Language----------------
 
 //--------------Object----------------
+// // let name = 'Anu';
+// // let age = 24;
 
-// let name = 'Anu';
-// let age = 24;
+// let person = {
+//     //Object litro
+//     name: 'Anu',
+//     age: 24
+// }; 
 
-let person = {
-    //Object litro
-    name: 'Anu',
-    age: 24
-}; 
+// //access to variables in object 
+// //Dot Notation
+// person.name = 'Shehaan';
 
-//access to variables in object 
-//Dot Notation
-person.name = 'Shehaan';
+// //Bracket Notation
+// person['name'] = 'Mary'
 
-//Bracket Notation
-person['name'] = 'Mary'
+// console.log(person.name);
 
-console.log(person.name);
+
+//--------------Array----------------
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 1;
+
+console.log(selectedColors);
+console.log(selectedColors.length);
+console.log(selectedColors[1]);
+
 
