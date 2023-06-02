@@ -22,8 +22,32 @@
 
 
 //--------------Primitives----------------
-let name = 'Anu'; //String
-let age = 30;   //Number
-let isApproved = false; //Boolean
-let firstName = undefined;
-let selectedColor = null;
+// let name = 'Anu'; //String
+// let age = 30;   //Number
+// let isApproved = false; //Boolean
+// let firstName = undefined;
+// let selectedColor = null;
+
+
+//--------------Dynamic Language----------------
+
+//--------------Object----------------
+
+// let name = 'Anu';
+// let age = 24;
+
+let person = {
+    //Object litro
+    name: 'Anu',
+    age: 24
+}; 
+
+//access to variables in object 
+//Dot Notation
+person.name = 'Shehaan';
+
+//Bracket Notation
+person['name'] = 'Mary'
+
+console.log(person.name);
+
