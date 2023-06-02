@@ -15,5 +15,9 @@
 
 
 //--------------Constants----------------
+const interstRate = 0.3;
+interstRate = 1;
+
+console.log(interstRate); //error cannot reassing a constant
 
 
