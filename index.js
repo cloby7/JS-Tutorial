@@ -53,11 +53,25 @@
 
 //--------------Array----------------
 
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 1;
+// let selectedColors = ['red', 'blue'];
+// selectedColors[2] = 1;
 
-console.log(selectedColors);
-console.log(selectedColors.length);
-console.log(selectedColors[1]);
+// console.log(selectedColors);
+// console.log(selectedColors.length);
+// console.log(selectedColors[1]);
+
+
+//--------------Functions----------------
+
+function greet(name, lastName){
+    //Need a logic
+    console.log('Hello '+ name + ' ' + lastName + '!')
+    //No needto add semicolon end of statement in function
+}
+
+greet('Nirupama', 'Dissanayake');
+greet('Sanaka');
+greet('Sehaan');
+
 
 
