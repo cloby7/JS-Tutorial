@@ -63,6 +63,7 @@
 
 //--------------Functions----------------
 
+//Performing a task
 function greet(name, lastName){
     //Need a logic
     console.log('Hello '+ name + ' ' + lastName + '!')
@@ -72,6 +73,19 @@ function greet(name, lastName){
 greet('Nirupama', 'Dissanayake');
 greet('Sanaka');
 greet('Sehaan');
+
+
+//Calculating a value
+function square(number){
+    return number * number
+}
+
+//Method 01
+let number = square(4);
+console.log(number);
+
+//Method 02
+console.log(square(5)); //2 function calls 1)square 2)console.log
 
 
 
